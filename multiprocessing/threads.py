@@ -36,16 +36,17 @@ from threading import Thread
 
 
 def do_cpu_work():
-    print("Starting CPU work")
-    x = 0
-    for _ in range(10**6):
-        x += 1
-    print("Finished CPU work")
-    
+	print("Starting CPU work")
+	x = 0
+	for _ in range(10**6):
+		x += 1
+	time.sleep(1)
+	print("Finished CPU work")
+	
 
 t = time.time()
 for _ in range(5):
-    do_cpu_work()
+	do_cpu_work()
 
 print("Elapsed time cpu based vanilla:", time.time() - t, "\n\n")
 
