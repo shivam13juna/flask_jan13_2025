@@ -5,6 +5,8 @@ pancakes = Flask(__name__)
 
 #!pip install flask
 
+# git checkout -b pytest
+
 @pancakes.route('/ping', methods=['GET'])
 def ping(): # function name doesn't
 	return {'message': 'Pinging Model pancakeslication!!'}
