@@ -68,3 +68,17 @@ def predict():
 #flask --pancakes hello.py run
 
 #http://127.0.0.1:5000/ping
+
+
+#gu "Code for  unit-changes done"
+
+#gu() {
+#    # First argument as commit message
+#    local commit_msg="$1"
+#    # Determine branch: use second argument if provided, otherwise use current branch
+#    local branch="${2:-$(git rev-parse --abbrev-ref HEAD)}"
+
+#    git add .
+#    git commit -m "$commit_msg"
+#    git push --set-upstream origin "$branch"
+#}

@@ -23,5 +23,5 @@ def test_b_functionalityy():
 
 	a, b = 10, 20
 
-	assert subtract_two_numbers(a, b) == -100, "Subtraction failed"
+	assert subtract_two_numbers(a, b) == -10, "Subtraction failed"
 	assert multiply_two_numbers(a, b) == 200
