@@ -3,7 +3,7 @@ name: First CI tests
 on:
   push:
     branches:
-      - main
+      - pytest
 
 
 jobs:
